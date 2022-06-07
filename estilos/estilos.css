@@ -37,7 +37,7 @@ div.productos{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: bisque;
+    background-color: rgb(247, 247, 247);
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
@@ -114,7 +114,7 @@ p{
     font-family:'Amatic SC';
 }
 
-ul{background-color: coral;
+ul{
     position: sticky;
     top: 0px;
 }
@@ -130,7 +130,7 @@ ul li{
     align-items: center;  
     font-size: 15px;
     font-weight: 100;  
-    background-color: coral;
+ 
   
 }
 .logo{
@@ -153,7 +153,7 @@ ul li{
 
 .menuContainer{
     color: brown;
-    background-color: coral;
+
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -200,7 +200,7 @@ ul li a{
 div.navlat{
     display: flex;
     justify-content: space-around;
-    background-color: coral;
+   ;
 }
 
 div.navlat li a{
@@ -235,12 +235,16 @@ html{
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Oswald:wght@200&display=swap');
 
+.stick{    position: sticky;
+    top: 0px;}
+
 
 /**declaracion de areas**/
 .titulo {grid-area: titulo;}
 .nav {grid-area: nav;
 position: sticky;
-top: 0ch;}
+top: 0ch;
+background-color: red;}
 .navlat{grid-area: navlat;}
 .productos{grid-area: producto;}
 .footer{grid-area: footer;}
@@ -253,7 +257,7 @@ body{
 
 h1{
     font-family:'Oswald', sans-serif;
-    font-size: 11vw;
+    font-size: 5vw;
     text-align: center;
 }
 
@@ -273,7 +277,7 @@ p{
     font-family:'Amatic SC';
 }
 
-ul{background-color: coral;
+ul{
     position: sticky;
     top: 0px;
 }
@@ -289,7 +293,7 @@ ul li{
     align-items: center;  
     font-size: 15px;
     font-weight: 100;  
-    background-color: coral;
+   ;
   
 }
 .logo{
@@ -308,7 +312,7 @@ ul li{
 
 .menuContainer{
     color: brown;
-    background-color: coral;
+
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -356,7 +360,7 @@ ul li a{
 div.navlat{
     display: flex;
     justify-content: space-around;
-    background-color: coral;
+
 }
 
 div.navlat li a{
